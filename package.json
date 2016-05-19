@@ -1,0 +1,43 @@
+{
+  "name": "firebase-orm",
+  "version": "0.0.1",
+  "description": "Firebase ORM",
+  "main": "dist/firebase-orm.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register",
+    "watch": "webpack --progress --colors --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axmatthew/firebase-orm.git"
+  },
+  "keywords": [
+    "firebase",
+    "orm"
+  ],
+  "author": "Matthew Cheng <matthew@appx.hk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axmatthew/firebase-orm/issues"
+  },
+  "homepage": "https://github.com/axmatthew/firebase-orm#readme",
+  "dependencies": {
+    "firebase": "^3.0.1"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^6.0.4",
+    "babel-loader": "^6.2.4",
+    "babel-core": "^6.9.0",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-runtime": "^6.9.0",
+    "eslint": "^2.10.2",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-jsx-a11y": "^1.2.0",
+    "eslint-plugin-react": "^5.1.1",
+    "webpack": "^1.13.0"
+  }
+}
